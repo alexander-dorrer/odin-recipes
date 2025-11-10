@@ -1,0 +1,40 @@
+h1 {
+    justify-self: center;
+    margin-bottom: 50px;
+}
+
+.meal-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.meal-container img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.meal {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    height: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.meal p {
+    font-weight: bold;
+    font-size: 26px;
+    align-self: center;
+}
+
+.meal a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    align-self: center;
+    padding: 10px;
+    border-radius: 10px;
+}
